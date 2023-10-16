@@ -1,35 +1,36 @@
 [Icon Theme]
 Name=Gruvbox
 Comment=Gruvbox, modern and colorful icon theme
-
-#
 Inherits=Papirus-Dark
-
 Example=directory-x-normal
-
 FollowsColorScheme=true
 
-
+#
 # Directory list
+#
 Directories=apps/48,devices/64,mimetypes/16,mimetypes/32,mimetypes/48,mimetypes/64,places/16,places/32,places/48,places/64
 
-#--------------------
+#
+# 32
+#
 
 [places/32]
 Context=Places
 Size=32
 MinSize=8
 MaxSize=32
-Type=Fixed
+Type=Scalable
 
 [mimetypes/32]
 Context=MimeTypes
 Size=32
 MinSize=8
 MaxSize=32
-Type=Fixed
+Type=Scalable
 
-#--------------------
+#
+# 48
+#
 
 [places/48]
 Context=Places
@@ -52,7 +53,9 @@ MinSize=32
 MaxSize=512
 Type=Scalable
 
-#--------------------
+#
+# 64
+#
 
 [places/64]
 Context=Places
