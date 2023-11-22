@@ -11,6 +11,24 @@ FollowsColorScheme=true
 Directories=apps/48,devices/64,mimetypes/16,mimetypes/32,mimetypes/48,mimetypes/64,places/16,places/32,places/48,places/64
 
 #
+# 16
+#
+
+[places/16]
+Context=Places
+Size=16
+MinSize=8
+MaxSize=16
+Type=Scalable
+
+[mimetypes/16]
+Context=MimeTypes
+Size=16
+MinSize=8
+MaxSize=16
+Type=Scalable
+
+#
 # 32
 #
 
